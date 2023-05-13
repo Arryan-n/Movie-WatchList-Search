@@ -1,4 +1,4 @@
-const BaseUrl = " http://www.omdbapi.com/?apikey=3cd7d4a6&";
+const BaseUrl = " https://www.omdbapi.com/?apikey=3cd7d4a6&";
 const watchlist = JSON.parse(localStorage.getItem("watchlist"));
 const DisplayElement = document.getElementById("mainel");
 
