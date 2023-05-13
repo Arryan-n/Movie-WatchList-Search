@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+}
+
+header {
+  background: url("movies.png") no-repeat;
+  background-position-y: -8rem;
+  background-color: rgba(0, 0, 0, 0.78);
+  background-size: cover;
+  height: 23rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  /* width: 100%; */
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header > h2 > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #e8ab26;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  width: 462px;
+  margin: 0 auto;
+  position: absolute;
+  top: 340px;
+  left: 0%;
+  right: 0%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+input[type="text"] {
+  padding: 0.65em 1em;
+  background-color: #2e2e2f;
+  border: none;
+  color: white;
+}
+
+.search-bar > input {
+  width: 500px;
+}
+
+#btn {
+  background-color: #4b4b4b;
+  border: none;
+  color: #fff;
+  padding: 1.1em 2em;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #e8ab26;
+}
+
+label {
+  background-color: #2e2e2f;
+  padding: 0.8em 1em;
+  border: none;
+}
+
+.add-movies-btn {
+  border-radius: 10px;
+  padding: 0.5em;
+  padding-right: 0.8em;
+  border: none;
+}
+
+.add-movies-btn:hover {
+  background-color: #e8ab26;
+  color: #fff;
+}
+
+.start-exploring-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2e2e2f;
+  margin-top: 12%;
+  margin-left: 3.5em;
+  font-size: 1.5rem;
+}
+
+.movie-list-sec {
+  padding-left: 7em;
+  padding-right: 15em;
+  margin-top: 5em;
+  font-family: "Caveat", cursive;
+}
+
+.movie-box-js {
+  display: flex;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2em;
+  font-family: "Caveat", cursive;
+}
+
+.moviesPoster {
+  margin-right: 3em;
+  margin-bottom: 3em;
+  border: 1px solid #ffffff;
+}
+.details-heading {
+  display: flex;
+}
+
+.details-heading > h2,
+p {
+  margin-right: 1em;
+  /* color: red; */
+}
+
+.details-genre {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.7em;
+}
+
+.moviesPoster > img {
+  width: 99px;
+}
+
+.movies-details {
+  max-width: 90%;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2e2e2f;
+  margin-top: 12%;
+  margin-left: 3.5em;
+  font-size: 1.5rem;
+  color: #787878;
+}
